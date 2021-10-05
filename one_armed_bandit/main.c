@@ -86,7 +86,7 @@ int main() {
 
 
 int* generateArray(int length) {
-    int* array = malloc(sizeof(int) * length);
+    int* array = malloc(sizeof(char) * length);
     
     for (int index = 0 ; index < length ; index++) {
         array[index] = (rand() % 7) + 1;
